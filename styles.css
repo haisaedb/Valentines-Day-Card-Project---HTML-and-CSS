@@ -9,11 +9,23 @@ body{
 
 #card{
     position: absolute;
-    top: 100px;
-    width:460px;
+    top: 300px;
+    width: 460px;
     height: 260px;
     left: 50%;
     margin-left: -230px;
+}
+
+#card h1{
+    font-size: 2.3rem;
+} 
+
+#card h1:hover{
+    color: transparent;
+    background: linear-gradient(45deg, #ee2ecb, #e40947);
+    -webkit-background-clip: text;
+    background-clip: text;
+    
 }
 
 #card .heart{
@@ -81,6 +93,7 @@ body{
     margin-left: 16px;
     line-height: 1.7;
 }
+
 
 #card #heart1{
     -webkit-transform: rotate(180deg);
@@ -192,7 +205,7 @@ body{
         -webkit-transform: rotateX(180deg);
     }
     100%{
-        -webkit-transform:rotateX(0deg) rotateZ(180deg);
+        -webkit-transform: rotateX(0deg) rotateZ(180deg);
     }
 }
 
@@ -201,16 +214,16 @@ body{
         -moz-transform: rotateX(180deg);
     }
     100%{
-        -moz-transform:rotateX(0deg) rotateZ(180deg);
+        -moz-transform: rotateX(0deg) rotateZ(180deg);
     }
 }
 
-@-ms-keyframes openRigth{
+@-ms-keyframes openRight{
     0%{
         -ms-transform: rotateX(180deg);
     }
     100%{
-        -ms-transform:rotateX(0deg) rotateZ(180deg);
+        -ms-transform: rotateX(0deg) rotateZ(180deg);
     }
 }
 
@@ -219,7 +232,7 @@ body{
         transform: rotateX(180deg);
     }
     100%{
-        transform:rotateX(0deg) rotateZ(180deg);
+        transform: rotateX(0deg) rotateZ(180deg);
     }
 }
 
