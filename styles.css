@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap');
+
+body{
+    background-color: rgb(202, 155, 247);
+    font-family: "Playwrite AU NSW", cursive;
+}
+
+/*Shape of Card*/
+
+#card{
+    position: absolute;
+    top: 100px;
+    width:460px;
+    height: 260px;
+    left: 50%;
+    margin-left: -230px;
+}
+
+#card .heart{
+    float: left;
+    width: 260px;
+    height: 260px;
+}
+
+#card .heart #circle{
+    background-color: #d32f2f;
+    height: 130px;
+    width:130px;
+    border-radius: 50%;
+}
+
+#card .heart #rec,
+#card .heart #rec2{
+    background-color: #d32f2f;
+    width: 130px;
+    height: 130px;
+    border-radius: 35% 0 0 0;
+    margin-top: -60px;
+}
+
+#card .heart #half2{
+    -ms-transform: rotate(-90deg);
+}
