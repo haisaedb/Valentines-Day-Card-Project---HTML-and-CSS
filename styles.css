@@ -40,4 +40,44 @@ body{
 
 #card .heart #half2{
     -ms-transform: rotate(-90deg);
+    /* IE 9  */
+    -webkit-transform: rotate(-90deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    margin-top:-330px;
+    margin-left: -200px;
+}
+
+#card #heart2{
+    margin-top: -60px;
+    margin-left: -130px;
+}
+
+#card #heart2 #circle,
+#card #heart2 #rec{
+    background-color: #fff;
+}
+
+#card #heart2 #half2 #rec{
+    border-bottom: 1px solid #eee;
+    margin-top: -61px;
+}
+
+#card #message{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #5b5b5e;
+    margin-left: -130px;
+    border-radius: 35% 0 35% 0;
+    text-align: center;
+}
+
+#card #message h2{
+    font-size: 1.1rem;
+    color: #fff;
+    width: 165px;
+    margin-top: 40px;
+    margin-left: 16px;
+    line-height: 1.7;
 }
